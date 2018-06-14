@@ -1,4 +1,4 @@
-# AUKO_\__ECG_\__Demo_iOS
+# AUKO\_ECG\_Demo_iOS
 
 
 
