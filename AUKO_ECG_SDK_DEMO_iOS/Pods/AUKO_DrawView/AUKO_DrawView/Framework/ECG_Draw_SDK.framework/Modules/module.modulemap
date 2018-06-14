@@ -1,0 +1,6 @@
+framework module ECG_Draw_SDK {
+  umbrella header "ECG_Draw_SDK.h"
+
+  export *
+  module * { export * }
+}

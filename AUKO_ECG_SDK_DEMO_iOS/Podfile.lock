@@ -1,0 +1,24 @@
+PODS:
+  - AUKO_DrawView (0.0.1)
+  - AUKO_ECG (0.0.2)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AUKO_DrawView (~> 0.0.1)
+  - AUKO_ECG (~> 0.0.2)
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AUKO_DrawView
+    - AUKO_ECG
+    - Masonry
+
+SPEC CHECKSUMS:
+  AUKO_DrawView: 38a412f1a9986720a7d02c114126973feda020d8
+  AUKO_ECG: 1d1e7e3557b50c01594a54391e1e70deab2c7026
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 448f48a9e7fc7f7d95ee33e3433d6da22c16b23e
+
+COCOAPODS: 1.5.3

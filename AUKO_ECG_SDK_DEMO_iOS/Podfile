@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'AUKO_ECG_SDK_DEMO_iOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for AUKO_ECG_SDK_DEMO_iOS
+
+  target 'AUKO_ECG_SDK_DEMO_iOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  pod 'Masonry'
+  pod 'AUKO_ECG', '~> 0.0.2'
+  pod 'AUKO_DrawView', '~> 0.0.1'
+
+
+end
