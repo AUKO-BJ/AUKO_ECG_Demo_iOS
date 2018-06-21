@@ -1,0 +1,1 @@
+../../../../AUKO_ECG/AUKO_ECG/Framework/ECG_SDK.framework/Headers/JSECGOAuth.h
