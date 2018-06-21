@@ -2,7 +2,6 @@
  *
  *  @author       ShenYj
  *  @copyright    Copyright © 2018年 ShenYj. All rights reserved.
- *  @version      V0.0.3
  *
  *  @Discussion   蓝牙管理工具, 实现蓝牙协议, 处理基础蓝牙交互逻辑
  */

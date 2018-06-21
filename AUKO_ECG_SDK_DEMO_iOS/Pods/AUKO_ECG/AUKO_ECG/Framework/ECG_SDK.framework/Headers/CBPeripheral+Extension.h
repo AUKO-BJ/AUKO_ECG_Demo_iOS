@@ -2,7 +2,6 @@
  *
  *  @author       ShenYj
  *  @copyright    Copyright © 2017 - 2018年 ShenYj. All rights reserved.
- *  @version      V1.0.0
  *
  *  @Discussion   为系统默认<i>CBPeripheral</i>类 @see CBPeripheral  增添ECG特有属性
  */

@@ -2,7 +2,6 @@
  *
  *  @author       ShenYj
  *  @copyright    Copyright © 2018年 ShenYj. All rights reserved.
- *  @version      V0.0.3
  *
  *  @Discussion   心电数据载体, 从该单例中获取1s的实时心电数据
  */
