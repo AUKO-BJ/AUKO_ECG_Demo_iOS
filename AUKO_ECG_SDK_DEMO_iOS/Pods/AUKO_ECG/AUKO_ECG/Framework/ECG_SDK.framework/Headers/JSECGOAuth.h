@@ -33,6 +33,7 @@ typedef void(^ECG_SDK_OAuthCallback)(BOOL result,NSString *msg);
  *  @param birthday      生日, 格式: 2018-06-19
  *  @param gender        性别
  *  @param delegate      代理对象, 实现<i>JSBLEHandlerProtocol</i>协议的对象, 需要通过实现协议方法来获取周边搜索到的设备
+ *  @param debugMode     YES -> Debug模式, NO -> Release模式
  *  @param callBack      回调
  *
  *  @discussion          SDK注册接口
@@ -41,6 +42,7 @@ typedef void(^ECG_SDK_OAuthCallback)(BOOL result,NSString *msg);
                   birthday: (NSString *)birthday
                     gender: (AUKOGender)gender
                   delegate: (id<JSBLEHandlerProtocol>)delegate
+                 debugMode: (BOOL)debugMode
                   callBack: (ECG_SDK_OAuthCallback)callBack;
 
 /**
@@ -50,6 +52,7 @@ typedef void(^ECG_SDK_OAuthCallback)(BOOL result,NSString *msg);
  *  @param age           年龄, 格式: 20
  *  @param gender        性别
  *  @param delegate      代理对象, 实现<i>JSBLEHandlerProtocol</i>协议的对象, 需要通过实现协议方法来获取周边搜索到的设备
+ *  @param debugMode     YES -> Debug模式, NO -> Release模式
  *  @param callBack      回调
  *
  *  @discussion          SDK注册接口
@@ -58,6 +61,7 @@ typedef void(^ECG_SDK_OAuthCallback)(BOOL result,NSString *msg);
                        age: (NSString *)age
                     gender: (AUKOGender)gender
                   delegate: (id<JSBLEHandlerProtocol>)delegate
+                 debugMode: (BOOL)debugMode
                   callBack: (ECG_SDK_OAuthCallback)callBack;
 
 /**

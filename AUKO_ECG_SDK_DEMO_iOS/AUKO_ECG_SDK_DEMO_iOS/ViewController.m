@@ -35,15 +35,17 @@ static NSString * const kTableViewCellReusedID = @"kTableViewCellReusedID";
     // Do any additional setup after loading the view, typically from a nib.
     
     /** 传参: 手机号 + 年龄 + 性别 */
-    [JSECGOAuth js_registerECG_SDK:@"18600699319" age:@"29" gender:AUKOGenderMale delegate:self callBack:^(BOOL result, NSString * _Nonnull msg) {
+    [JSECGOAuth js_registerECG_SDK:@"18600699320" age:@"29" gender:AUKOGenderMale delegate:self debugMode:YES callBack:^(BOOL result, NSString * _Nonnull msg) {
         if (result) {
             // 授权成功, 界面展示
             return ;
         }
         NSLog(@" AUKO_ECG_SDK 授权失败: %@",msg);
+        
     }];
+
     /** 传参: 手机号 + 生日 + 性别 */
-//    [JSECGOAuth js_registerECG_SDK:@"18600699319" birthday:@"2012年12月31日" gender:AUKOGenderMale delegate:self callBlack:^(BOOL result, NSString * _Nonnull msg) {
+//    [JSECGOAuth js_registerECG_SDK:@"18600699319" birthday:@"2012年12月31日" gender:AUKOGenderMale delegate:self debugMode:YES callBlack:^(BOOL result, NSString * _Nonnull msg) {
 //        if (result) {
 //            // 授权成功, 界面展示
 //            return ;
