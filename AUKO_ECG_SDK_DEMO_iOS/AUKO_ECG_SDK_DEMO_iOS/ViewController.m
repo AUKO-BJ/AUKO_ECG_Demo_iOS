@@ -60,7 +60,14 @@ static NSString * const kTableViewCellReusedID = @"kTableViewCellReusedID";
       if (result) {
           // 授权成功, 界面展示
           NSLog(@" 授权成功, 界面展示");
-          return ;
+          
+          NSData *userData = [[NSUserDefaults standardUserDefaults] objectForKey:@"AukoUserData"];
+          if (userData == nil) return;
+          id userModel = [NSKeyedUnarchiver unarchiveObjectWithData:userData];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+          NSLog(@"%@",[userModel performSelector:@selector(aukoUserID)]);
+#pragma clang diagnostic pop
       }
       NSLog(@" AUKO_ECG_SDK 授权失败: %@",msg);
     }];
