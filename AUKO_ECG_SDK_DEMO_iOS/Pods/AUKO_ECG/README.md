@@ -8,12 +8,12 @@
 
 ## 示例Demo
 
-[example project](https://github.com/AUKO-BJ/AUKO_ECG_Demo_iOS) __clone或下载此工程__
+[example project](https://github.com/AUKO-BJ/AUKO_ECG_Demo_iOS) __clone此工程__
 
 ## SDK集成 & 条件
 
 
-####1. 集成ECG_SDK<br>
+#### 1. 集成ECG_SDK<br>
 
  - 1.1  手动集成<br>
        *  SDK下载 [仓库地址](https://github.com/AUKO-BJ/AUKO_ECG) <br>
@@ -24,16 +24,18 @@
 it, simply add the following line to your Podfile:
 
    ```ruby
-   pod 'AUKO_ECG'
+   pod 'AUKO_ECG', '~> 0.0.6'
    ```
  
-####2. 导入依赖库: 
+#### 2. 导入依赖库: 
 
    `CoreBluetooth.framework` <br>
    `libsqlite3.dylib`<br>
    `SystemConfiguration.framework`<br>
     
-####3. 设置	`Other Linker Flag:  -ObjC`
+#### 3. 设置	`Other Linker Flag:  -ObjC`
+
+#### 4. 导入头文件 ```#import <ECG_SDK/ECG_SDK.h>```
 
 
 ## 软件架构
@@ -127,7 +129,7 @@ it, simply add the following line to your Podfile:
 - (void)js_peripheralDisconnected:(CBPeripheral *)peripheral;
 ```
 
-更多接口请参照文档:[接口文档]()
+更多接口介绍请Clone本地后查看本地文档: Git\_SDK\_Project/AUKO_ECG/html/index.html
 
 ## 补充说明
 

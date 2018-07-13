@@ -13,7 +13,7 @@ target 'AUKO_ECG_SDK_DEMO_iOS' do
   end
 
   pod 'Masonry'
-  pod 'AUKO_ECG', '~> 0.0.6'
+  pod 'AUKO_ECG', '~> 0.0.7'
   pod 'AUKO_DrawView', '~> 0.0.1'
 
 
